@@ -17,16 +17,16 @@ trait contacttrait
     	$data = Request()->validate([
     		'name' => 'required',
     		'email' => 'required|email',
+        'number'=>'required|max:10',
     		'message' => 'required',
-    
-    	]);
+        ]);
     	$a = [];
         $a['created_at'] = Carbon::now('Asia/Kathmandu');
         $final = array_merge($a,$data);
         DB::table('contacts')->insert($final);
-      
-  
-	}
+          Session::flash('success');
+        return redirect('/contactus');
+      }
 
 	public function addcontact(){
 		return view('cd-admin.contact.create');

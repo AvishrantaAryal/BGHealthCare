@@ -1,0 +1,1417 @@
+
+.default_pad{
+	padding-top: 70px;
+	padding-bottom: 110px;
+}
+
+
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+	-webkit-appearance: none; 
+	margin: 0; 
+}
+
+
+
+
+/*top nav*/
+.logo{
+	text-align: center;
+}
+
+
+.center-logo {
+	height: 110px;
+	overflow: hidden;
+	margin-top: 10px;
+}
+
+.center-logo img{
+	height: 100%;
+	width: 100%;
+	object-fit: contain;
+
+}
+
+.contact{
+
+	margin-top: 10px;
+
+}
+
+
+
+
+.contact span i{
+	color: #fff;
+	background: #ad1f25;
+	padding: 12px 14px;
+	border-radius: 50%;
+	text-align: center;
+	font-size: 24px;
+	margin-right: 15px;
+	float: left;
+	clear: both;
+
+
+
+}
+
+
+.contact p{
+	text-transform: capitalize;
+	font-weight: bold;
+	margin-bottom: 0;
+	
+}
+.right_con{
+	margin-top: 10px;
+}
+
+.right_con p{
+	text-transform: capitalize;
+	font-weight: bold;
+	text-align: right;
+	margin-bottom: 0;
+}
+
+.right_con span i{
+	color: #fff;
+	background: #ad1f25;
+	padding: 12px 14px;
+	border-radius: 50%;
+	text-align: center;
+	font-size: 24px;
+	margin-left: 15px;
+	float: right;
+	clear: both;
+}
+
+/*end of top nav*/
+
+
+/*navbar*/
+
+.navbar-light .menu-item .nav-link {
+	margin-right: 25px;
+	margin-left: 25px;
+	font-weight: bold;
+	color: #313131;
+
+}
+
+.navbar-light .menu-item .nav-link:hover{
+	color:#d93d7b;
+}
+
+.menu-item{
+	width: 100%;
+	text-align: center;
+}
+.menu-item ul{
+	list-style: none;
+	margin-bottom: 0;
+	padding-left: 0;
+}
+
+.menu-item li{
+	display: inline-block;
+
+}
+
+/*end of navbar*/
+
+
+
+
+
+
+/*background*/
+
+.bg_image{
+	background: url(../images/cosmic.jpeg);
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-bottom: 470px;
+}
+
+
+.bg_image h2{
+	top: 15%;
+	position: absolute;
+	left: 5%;
+	font-size: 84px;
+	font-weight: bold;
+	
+}
+.bg_image{
+	position: relative;
+}
+
+.par_desc{
+	font-size: 24px;
+}
+
+
+
+
+
+/*end of background*/
+
+
+/*about us*/
+.hlt_care{
+	padding-bottom: 20px;
+}
+
+.hlt_care img{
+	height: 400px;
+}
+.health_care_right{
+	padding-right: 70px;
+}
+
+.about_us a{
+
+	text-decoration: none;
+	border-bottom: 4px solid #ad1f25;
+	color: black;
+	text-transform: capitalize;
+	font-weight: bold;
+
+}
+
+.about_us h4{
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+
+.about_us h1{
+	font-weight: bold;
+	padding-bottom: 50px;
+}
+
+
+/*end of about us*/
+
+
+
+/*services*/
+.service{
+	background: #ebf5f6;
+	padding-top: 90px;
+	padding-bottom: 90px;
+}
+
+.services h4{
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-bottom: 20px;
+	font-family: 'Ibarra Real Nova', serif;
+
+}
+
+.services h1{
+	text-align: center;
+	font-weight: bold;
+	padding-bottom: 30px;
+	font-family: 'Ibarra Real Nova', serif;
+
+}
+
+.service_par{
+	padding-bottom: 70px;
+
+}
+
+
+.service_par p{
+	font-weight: bold;
+}
+.more_details{
+	background: #fff;
+}
+.more_details{
+	text-align: center;
+	padding: 40px 20px 40px 20px;
+	margin-bottom: 25px;
+}
+
+.more_details:hover{
+	border-radius: 25px 0px 25px 0px;
+}
+
+.more_details span i{
+	background: #ebf5f6;
+	padding: 25px 40px;
+	border-radius: 50%;
+	font-size: 42px;
+	margin-bottom: 20px;
+}
+.more_details h4{
+	font-weight: bold;
+	text-transform: capitalize;
+	font-family: 'Ibarra Real Nova', serif;
+}
+.more_details p{
+	font-weight: bold;
+	margin-bottom: 40px;
+}
+
+
+.detail_btn a:hover{
+	background: #d93d7b;
+	color: #fff;
+	border: none;
+}
+
+
+.detail_btn a{
+	text-decoration: none;
+	border: 2px solid #ad1f25;
+	color: black;
+	font-weight: bold;
+	padding: 10px 70px;
+	transition: .2s ease-out;
+}
+
+.explore_service h6{
+	text-align: center;
+	padding-top: 40px;
+	font-weight: bold;
+}
+
+.explore_service h6 a{
+	color: black;
+	text-decoration: underline;
+}
+
+
+
+
+/*end of services*/
+
+
+
+/*team*/
+
+.team{
+	background: #1a5c74;
+	padding-top: 90px;
+	padding-bottom: 90px;
+}
+
+.my_team h4{
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #fff;
+	padding-bottom: 20px;
+	font-family: 'Ibarra Real Nova', serif;
+}
+
+.my_team h1{
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+	line-height: 56px;
+	padding-bottom: 30px;
+	font-family: 'Ibarra Real Nova', serif;
+}
+
+.team_par{
+	padding-bottom: 50px;
+}
+
+.team_par p{
+	color: #fff;
+	font-weight: bold;
+}
+
+
+
+/*Team*/
+
+
+
+
+
+.row.teachers-section {
+	margin: 0 auto;
+
+}
+
+.staff-group-image{    
+	height: 220px;     
+	width: 220px;   
+	overflow: hidden;
+	border-radius: 110px;    
+	margin: 0 auto; 
+}
+.staff-group-image img{
+	height: 100%;   
+	width: 100%;  
+	object-fit: cover;
+
+}
+
+
+.content-staff h4 {
+
+	margin-top: 20px;
+	font-family: auto;
+	color: #fff;
+	text-align: center;
+}
+
+.content-staff p{
+	text-align: center;
+	font-size: 12px;
+	color: #fff;
+
+}
+
+/*end of team*/
+
+
+/*appointment*/
+
+.request{
+	background: #bb2526;
+	padding: 25px;
+	line-height: 46px;
+}
+
+.req_apoint{
+	text-align: center;
+}
+
+.req_apoint h6{
+	color: #fff;
+	margin-bottom: 0px;
+}
+
+.req_apoint h6 a{
+	color: #fff;
+	text-decoration: underline;
+}
+
+
+
+/*end of appointment*/
+
+
+/*simple process*/
+
+.blog-main-content{
+	text-align: center;
+	font-family: 'Ibarra Real Nova', serif;
+	padding-bottom: 30px;
+
+
+}
+
+
+.blog-main-section{
+	margin-bottom: 70px;
+	margin-top: 70px;
+}
+
+.blog-main-image{
+	height: 300px;
+	overflow: hidden;
+}
+.blog-main-image img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+
+.blog-main-para p{
+	font-size: 15px;
+	font-weight: bold;
+	padding-bottom: 8px;
+
+
+}
+
+.blog-main-date {
+	padding-top: 15px;
+	font-size: 14px;
+	color: #ad1f25;
+}
+.read-main-btn a:hover{
+	background: #d93d7b;
+	color: #fff;
+	border: none;
+}
+
+
+.read-main-btn a{
+	text-decoration: none;
+	border: 2px solid #ad1f25;
+	color: black;
+	font-weight: bold;
+	padding: 10px 35px;
+	transition: .2s ease-out;
+}
+
+.view-blog p{
+	text-align: center;
+
+}
+
+.blog-main-btn a:hover{
+	background: #d93d7b;
+	color: #fff;
+	border: none;
+}
+
+
+.blog-main-btn a{
+	text-decoration: none;
+	border: 2px solid #ad1f25;
+	color: black;
+	font-weight: bold;
+	padding: 10px 35px;
+	transition: .2s ease-out;
+}
+/*end of simple process*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*caregiver*/
+.pa-0{
+	padding: 0;
+}
+
+.caregiver{
+	background-image: url('../images/healthcare/1.jpeg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-top: 130px;
+	margin-bottom: -70px;
+}
+
+
+
+
+.careblock{
+	text-align: center;
+	padding-bottom: 120px;
+	padding-top: 140px;
+}
+
+
+
+.careblock .careblock_header h4{
+	font-size: 30px;
+	font-weight: bold;
+	color: #fff;
+
+}
+
+
+
+
+
+.careblock_title h2{
+	text-transform: capitalize;
+	font-size: 56px;
+	letter-spacing: 2px;
+	padding-top: 10px;
+	padding-bottom: 25px;
+	color: #fff;
+}
+
+.careblock_title{
+	padding-bottom: 30px;
+}
+
+
+
+
+
+.careblock .caregiver_btn{
+	background-color:  #bb2526;
+	padding:15px 25px;
+	color: #fff;
+	text-transform: capitalize;
+	text-decoration: none;
+	font-weight: bold;
+	text-align: center;
+	transition: .5s ease-out;
+}
+
+.careblock .caregiver_btn:hover{
+	background: #d93d7b;
+	color: #fff;
+}
+
+/*caregiver ends*/
+
+
+
+
+
+
+
+
+
+
+/*footerhealthcare css*/
+
+.foot-info{
+	padding-top: 38px;
+}
+
+.footerhealthcare{
+	background-color: #bb2526;
+	color: #fff;
+
+}
+.healthcarecontainer{
+
+	border-bottom: 2px solid #c0c0c0;
+}
+.footerhealthcare .healthcarecontainer .healthcarecolumn ul li{
+	list-style: none;
+}
+.paragraph{
+	padding-top: 12px;
+}
+.paragraph p{
+	color: #fff;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+
+.healthcarecolumn h6{
+	text-transform: uppercase;
+	padding-bottom: 20px;
+	font-weight: bold;
+}
+.contactheader h6{
+	padding-top: 40px;
+}
+
+.linkheader h6{
+	padding-top: 40px;
+}
+.contactinfo{
+	font-weight: bold;
+	text-align: left;
+}
+
+.links ul{
+	padding-left: 0px;
+	margin-left: 0px;
+}
+.links .sublist ul li a{
+	font-weight: bold;
+
+}
+.gallery_images h6{
+	text-align: center;
+}
+
+.foot{
+	padding-top: 50px;
+}
+.owner{
+	float: left;
+	clear: both;
+}
+.creator{
+	padding-top: 20px;
+}
+.healthicon a{
+	
+	padding-left: 30px;
+	float: right;
+	
+}
+.footerhealthcare a{
+	color: #fff;
+	text-decoration: none;
+}
+.foot_gallery h6{
+	font-weight: bold;
+	padding-top: 40px;
+	
+}
+
+
+
+.gallery_image img{
+	margin-bottom: 15px;
+	margin-left: 0px;
+}
+.gal_mar{
+	margin-right: -15px;
+}
+
+
+/*servicespage*/
+.service-page{
+
+	border-top: 2px solid rgba(192,192,192,20.3);
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+
+
+.services-pages h4{
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-bottom: 15px;
+	font-family: 'Ibarra Real Nova', serif;
+}
+
+.services-pages h1{
+	text-align: center;
+	font-weight: bold;
+	padding-bottom: 23px;
+	font-family: 'Ibarra Real Nova', serif;
+}
+
+.service_paragraph{
+	padding-bottom: 55px;
+}
+
+
+.service_paragraph p{
+	font-weight: bold;
+}
+.more-detail{
+	background: #ebf5f6;
+}
+.more-detail{
+	text-align: center;
+	padding: 40px 20px 40px 20px;
+	margin-bottom: 25px;
+}
+
+.more-detail:hover{
+	border-radius: 25px 0px 25px 0px;
+}
+
+.more-detail span i{
+	background: #fff;
+	padding: 25px 40px;
+	border-radius: 50%;
+	font-size: 42px;
+	margin-bottom: 20px;
+}
+.more-detail h4{
+	font-weight: bold;
+	text-transform: capitalize;
+
+}
+.more-detail p{
+	font-weight: bold;
+	margin-bottom: 40px;
+}
+
+.more-details-image{
+	height: 150px;
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+.more-details-image img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+.details-btn a:hover{
+	background: #d93d7b;
+	color: #fff;
+	border: none;
+}
+
+
+.details-btn a{
+	text-decoration: none;
+	border: 2px solid #ad1f25;
+	color: black;
+	font-weight: bold;
+	padding: 10px 70px;
+	transition: .2s ease-out;
+}
+
+
+.contactus-details-btn:hover{
+	background: #d93d7b;
+	color: #fff;
+	border: 2px solid rgba(0,0,0,0);
+}
+
+
+.contactus-details-btn{
+	text-decoration: none;
+	border: 2px solid #ad1f25;
+	color: black;
+	font-weight: bold;
+	padding: 10px 70px;
+	transition: .2s ease-out;
+}
+
+.explore-services h6{
+	text-align: center;
+	padding-top: 40px;
+	font-weight: bold;
+}
+
+
+/*more details*/
+.service-next-page{
+
+	border-top: 2px solid rgba(192,192,192,20.3);
+	padding-bottom: 40px;
+	padding-top: 50px;
+}
+
+
+.services-next-pages h4{
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-bottom: 15px;
+	font-family: 'Ibarra Real Nova', serif;
+}
+
+.services-next-pages h1{
+	text-align: center;
+	font-weight: bold;
+	padding-bottom: 23px;
+	font-family: 'Ibarra Real Nova', serif;
+}
+
+.service-next-paragraph{
+	padding-bottom: 20px;
+}
+
+
+
+
+.service{
+	background: #ebf5f6;
+	padding-top: 90px;
+	padding-bottom: 90px;
+}
+
+
+
+.more_details{
+	background: #fff;
+}
+.more_details{
+	text-align: center;
+	padding: 40px 20px 40px 20px;
+	margin-bottom: 25px;
+}
+
+.more_details:hover{
+	border-radius: 25px 0px 25px 0px;
+}
+
+.more_details span i{
+	background: #ebf5f6;
+	padding: 25px 40px;
+	border-radius: 50%;
+	font-size: 42px;
+	margin-bottom: 20px;
+}
+.more_details h4{
+	font-weight: bold;
+	text-transform: capitalize;
+	font-family: 'Ibarra Real Nova', serif;
+}
+.more_details p{
+	font-weight: bold;
+	margin-bottom: 40px;
+}
+
+
+.detail_btn a:hover{
+	background: #d93d7b;
+	color: #fff;
+	border: none;
+}
+
+
+.detail_btn a{
+	text-decoration: none;
+	border: 2px solid #ad1f25;
+	color: black;
+	font-weight: bold;
+	padding: 10px 70px;
+	transition: .2s ease-out;
+}
+
+.explore_service h6{
+	text-align: center;
+	padding-top: 40px;
+	font-weight: bold;
+}
+
+.explore_service h6 a{
+	color: black;
+	text-decoration: underline;
+}
+
+
+
+.service-image {
+	height: 300px;
+	overflow: hidden;
+}
+.service-image img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+
+
+
+/*conatctus*/
+.contact-bg{
+	border-top: 2px solid rgba(192,192,192,20.3);
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+.contactus-heading{
+	text-align: center;
+	font-family: 'Ibarra Real Nova', serif;
+}
+.contactus-heading p{
+	padding-bottom: 25px;
+}
+.form-section {
+	color:#000;
+}
+.form-section .btn-default {
+	border: 2px solid #ad1f25;
+	color: #000;
+	border-radius: 0;
+}
+.form-section .btn-default:hover {
+	background-color:#d93d7b;
+	color: #fff;
+}
+.form-section .form-control {
+	border-radius: 0;
+}
+.map{
+	margin-bottom: 30px;
+}
+
+
+
+/*aboutus*/
+
+.about-main{
+	border-top: 2px solid rgba(192,192,192,20.3);
+	padding-bottom: 50px;
+	padding-top: 45px;
+}
+
+.about-content{
+	text-align: center;
+	font-family: 'Ibarra Real Nova', serif;
+}
+.about-content h2{
+	padding-bottom: 40px;
+}
+
+.about-paragraph p{
+	font-family: 'Quicksand', sans-serif;
+}
+
+.about-image{
+	height: 400px;
+	overflow: hidden;
+	margin-top: 35px;
+}
+.about-image img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+
+/*team*/
+
+.team-main-next{
+	background: #f7f7f7 ;
+	padding-top: 90px;
+	padding-bottom: 90px;
+}
+
+.our-team-next h4{
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #000;
+	padding-bottom: 20px;
+	font-family: 'Ibarra Real Nova', serif;
+}
+
+.our-team-next h1{
+	text-align: center;
+	color: #000;
+	font-weight: bold;
+	line-height: 56px;
+	padding-bottom: 30px;
+	font-family: 'Ibarra Real Nova', serif;
+}
+
+.team-paragraph-next{
+	padding-bottom: 50px;
+}
+
+.team-paragraph-next p{
+	color: #000;
+	font-weight: bold;
+}
+
+
+
+
+.row.teachers-section-main {
+	margin: 0 auto;
+
+}
+
+.staff-main-image{    
+	height: 220px;     
+	width: 220px;   
+	overflow: hidden;
+	border-radius: 110px;    
+	margin: 0 auto; 
+}
+.staff-main-image img{
+	height: 100%;   
+	width: 100%;  
+	object-fit: cover;
+
+}
+
+
+.content-main-staff h4 {
+
+	margin-top: 20px;
+	font-family: auto;
+	color: #000;
+	text-align: center;
+}
+
+.content-main-staff p{
+	text-align: center;
+	font-size: 12px;
+	color: #000;
+
+}
+
+
+/*blog*/
+
+
+
+.blog-news-content h1{
+	font-family: auto;
+	text-align: center;
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+
+
+.blog-section{
+	border-top: 2px solid rgba(192,192,192,20.3);
+	padding-bottom: 50px;
+}
+.blogger{
+	margin-top: 35px;
+}
+.blog-news-image{
+	height: 300px;
+	overflow: hidden;
+}
+.blog-news-image img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+
+.blog-news-para p{
+	font-size: 15px;
+	font-weight: bold;
+	padding-bottom: 8px;
+
+
+}
+
+.blog-news-date {
+	padding-top: 15px;
+	font-size: 14px;
+	color: #ad1f25;
+}
+.read-btn a:hover{
+	background: #d93d7b;
+	color: #fff;
+	border: none;
+}
+
+
+.read-btn a{
+	text-decoration: none;
+	border: 2px solid #ad1f25;
+	color: black;
+	font-weight: bold;
+	padding: 10px 35px;
+	transition: .2s ease-out;
+}
+/*blogdetail*/
+
+
+.blog-main-bg h4{
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../images/20.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-align: center;
+	color: #fff;
+	padding-top: 170px;
+	padding-bottom: 170px;
+	margin-bottom: 0;
+	font-size: 50px; 
+	font-family: 'Ibarra Real Nova', serif;
+}
+
+
+.blogdetail-bg{
+	border-top: 2px solid rgba(192,192,192,20.3);
+	padding-bottom: 50px;
+}
+
+.blog-main-content{
+	text-align: center;
+	font-family: 'Ibarra Real Nova', serif;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.blogdetails-image{
+	
+	height: 335px;
+	overflow: hidden
+}
+.blogdetails-image img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+.blogdetail{
+	padding-top: 40px;
+}
+
+
+.blogdetail-date {
+	padding-top: 15px;
+	font-size: 14px;
+	color: #ad1f25;
+}
+.blogdetail-content h4{
+	font-family: 'Ibarra Real Nova', serif;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+
+
+.next-content-bg{
+	padding-top: 45px;
+	padding-bottom: 45px;
+}
+
+
+
+
+
+/*gallery section*/
+.gallery{
+	border-top: 2px solid rgba(192,192,192,20.3);
+	padding-bottom: 50px;
+	padding-top: 35px;
+
+}
+
+.gallery-content{
+	font-family: 'Quicksand', sans-serif;
+	text-align: center;
+	padding-bottom: 35px;
+}
+.gallery-section-image img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+..gallery-section-image{
+	height: 300px;
+	overflow: hidden;
+}
+.gallery-btn{
+	text-align: center;
+	padding-top: 35px;
+}
+.gallery-btn a:hover{
+	background: #d93d7b;
+	color: #fff;
+	border: none;
+}
+
+
+.gallery-btn a{
+	text-decoration: none;
+	border: 2px solid #ad1f25;
+	color: black;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: bold;
+	padding: 10px 80px;
+	transition: .2s ease-out;
+}
+
+/*pictures*/
+.gallery-container{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.picture-section img{
+	height: 90%;
+	width: 100%;
+	object-fit: cover;
+}
+
+.picture-section{
+	height: 270px;
+	overflow: hidden;
+}
+
+
+/*FAQ section*/
+
+.faq-main{
+	border-top: 2px solid rgba(192,192,192,20.3);
+	padding-bottom: 70px;
+}
+
+.faq-content{
+	text-align: center;
+	color: #000;
+	font-family: 'Ibarra Real Nova', serif;
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+
+
+
+/*footerhealthcare css ends*/
+
+
+
+
+
+
+@media(max-width: 450px){
+
+	.bg_image h2{
+		font-size: 46px;
+	}
+	.par_desc{
+		font-size: 18px;
+	}
+}
+
+/*@media(max-width: 879px){
+	.careblock_title h2{
+		font-size: 46px;
+	}
+}
+
+@media(max-width: 682px){
+	.careblock_title h2{
+		font-size: 36px;
+	}
+}
+*/
+
+@media(max-width: 767px){
+	.right_con span i{
+		float: left;
+		margin-right: 15px;
+
+	}
+
+	.right_con p{
+		text-align: left;
+	}
+}
+
+
+
+
+
+
+
+
+/*updated css*/
+.home-inquiry-form-card{
+	background: #fff;
+	position: relative;
+	bottom: 70px;
+	margin-bottom: -70px;
+	padding: 40px;
+	box-shadow: 0 0 10px 2px rgba(0,0,0,0.2);
+}
+.home-inquiry-form-card .form-group label{
+	font-size: 14px;
+	font-weight: 700;
+}
+.home-inquiry-form-card .form-group input{
+	border-radius: 0;
+}
+.home-inquiry-form-card .form-group input:focus{
+	box-shadow: none;
+	border-color: #ad1f25;
+}
+
+.home-inquiry-form-card .form-group select{
+	border-radius: 0;
+}
+.home-inquiry-form-card .form-group select:focus{
+	box-shadow: none;
+	border-color: #ad1f25;
+}
+
+
+
+.home-inquiry-form-btn{
+	margin-top: 30px;
+}
+.home-inquiry-form-btn button{
+	text-decoration: none;
+	border: 2px solid #ad1f25;
+	color: #000;
+	background: #fff;
+	border-radius: 0;
+	font-weight: bold;
+	padding: 5px 60px;
+	transition: all .3s ease-out;
+}
+
+
+.home-inquiry-form-btn button:hover{
+	background: #d93d7b;
+	color: #fff;
+	border: 2px solid rgba(0,0,0,0);
+}
+.home-inquiry-form-btn button:active{
+	background: #d93d7b!important;
+	color: #fff;
+	border: 2px solid rgba(0,0,0,0)!important;
+}
+.home-inquiry-form-btn button:active:focus{
+	box-shadow: none!important;
+}
+.home-inquiry-form-btn button:focus{
+	box-shadow: none!important;
+}
+
+
+
+
+
+
+
+/*contactus*/
+.contactus-form-card .form-group label{
+	font-weight: 700;
+}
+.contactus-form-card .form-group input{
+	border-radius: 0;
+}
+.contactus-form-card .form-group input:focus{
+	box-shadow: none;
+	border-color: #ad1f25;
+}
+
+.contactus-form-card .form-group select{
+	border-radius: 0;
+}
+.contactus-form-card .form-group select:focus{
+	box-shadow: none;
+	border-color: #ad1f25;
+}
+
+
+
+.contactus-form-btn button{
+	text-decoration: none;
+	border: 2px solid #ad1f25;
+	color: #000;
+	width: 100%;
+	background: #fff;
+	border-radius: 0;
+	font-weight: bold;
+	padding: 10px 70px;
+	transition: all .3s ease-out;
+}
+
+
+.contactus-form-btn button:hover{
+	background: #d93d7b;
+	color: #fff;
+	border: 2px solid rgba(0,0,0,0);
+}
+.contactus-form-btn button:active{
+	background: #d93d7b!important;
+	color: #fff;
+	border: 2px solid rgba(0,0,0,0)!important;
+}
+.contactus-form-btn button:active:focus{
+	box-shadow: none!important;
+}
+.contactus-form-btn button:focus{
+	box-shadow: none!important;
+}
+
+
+
+.faq-main .services-pages h4{
+	margin-top: 30px;
+}

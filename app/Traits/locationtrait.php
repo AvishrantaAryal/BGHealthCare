@@ -17,8 +17,68 @@ trait locationtrait
 
 
     public function view(){
-    	  $about= DB::table('locations')->get()->first();
-        return view('cd-admin.location.location',compact('about'));
+    	  $lo= DB::table('locations')->get();
+          $er =  Location::get();
+
+        return view('cd-admin.location.location',compact('lo','er'));
     }
-}
+
+   public function store()
+    {
+        $a=[];
+        $data = $this->insertcontrol();
+        $a['created_at'] =Carbon::now('Asia/Kathmandu');
+        $replace = array_replace($data,$a);
+        DB::table('locations')->Insert($replace);
+        Session::flash('success');
+        return redirect('/location-view');
+    }
+
+    
+    public function delete($id){
+      DB::table('locations')->where('id',$id)->delete();
+      Session::flash('deletesuccess');
+      return redirect('/location-view');
+    }
+
+    public function statusupdate($id)
+    {
+        $a = [];
+        $test = DB::table('locations')->where('id',$id)->get()->first();
+        if($test->status=='active')
+        {
+            $a['status'] = 'inactive';
+        }
+        else
+        {
+            $a['status'] = 'active'; 
+        }
+        DB::table('locations')->where('id',$id)->update($a);
+        return redirect('/location-view');
+    }
+
+
+
+    public function insertcontrol()
+    {
+        $request =Request()->all();
+        $data =  Request()->validate([
+
+        'name'=>'required',
+        'status' =>'required',
+        ]);
+        return $data;
+    }
+
+
+        public function updatevalidation()
+    {
+         $data =  Request()->validate([
+        'name'=>'required',
+        'status' =>'required',
+
+        ]);
+        return $data;
+    }
+   }
 ?>

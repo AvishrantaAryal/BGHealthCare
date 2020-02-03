@@ -42,12 +42,11 @@ Add SEO
                     <option value="Home">Home</option>
                     <option value="About">About</option>
                     <option value="Service">Service</option>
-                    <option value="Testimonial">Testimonial</option>
+                    <option value="FAQ">FAQ</option>
+                    <option value="Blog">Blog</option>
                     <option value="Gallery">Gallery</option>
                     <option value="Contact">Contact</option>
-                    <option value="team">Team</option>
-                    <option value="message">Message From Ceo</option>
-                  </select>
+                    </select>
                   
                   
                 

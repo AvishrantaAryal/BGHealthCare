@@ -11,6 +11,32 @@
 |
 */
 
+Route::get('/','FrontendController@home');
+Route::get('home','FrontendController@home');
+
+Route::get('service', 'FrontendController@service');
+
+Route::get('service-detail/{slug}','FrontendController@servicedetails'); 
+
+Route::get('faq','FrontendController@faq');
+ 
+Route::get('gallery', 'FrontendController@gallery');
+
+Route::get('picture/{id}','FrontendController@picture');
+
+Route::get('aboutus', 'FrontendController@about');
+
+Route::get('contactus', 'FrontendController@contact');
+
+Route::get('blog','FrontendController@blog');
+
+Route::get('blog-detail/{slug}','FrontendController@blogdetails');
+
+Route::get('error','FrontendController@err');
+ 
+
+Route::post('/storecontact','ContactController@store');
+Route::post('/store-appointment','ApponitmentController@store');
 //Back End
 
 Auth::routes(['register' => false]);
@@ -70,7 +96,10 @@ Route::get('/deleteblog/{id}','BlogController@delete');
 
 //Location
 Route::get('/location-add','LocationController@add');
-
+Route::post('/storelocation','LocationController@store');
+Route::get('/location-view','LocationController@view');
+Route::get('/deletelocation/{id}','LocationController@delete');
+Route::post('/locationstatus/{id}','LocationController@statusupdate');
 
 
 
@@ -93,6 +122,18 @@ Route::get('/replycontact/{id}','ContactController@replyform');
 Route::post('/storereply/{id}','ContactController@storereply');
 Route::get('/deleteinbox/{id}','ContactController@deleteinbox');
 Route::get('/deletereply/{id}','ContactController@deletereply');
+// Route::post('/storecontact','ContactController@store');
+
+
+//Appointment
+Route::get('/create-appointment','ApponitmentController@addcontact');
+Route::get('/view-appointment','ApponitmentController@contact');
+Route::get('/appointment-replies','ApponitmentController@reply');
+Route::get('/reply-appointment/{id}','ApponitmentController@replyform');
+Route::post('/store-appointment-reply/{id}','ApponitmentController@storereply');
+Route::get('/delete-appointment/{id}','ApponitmentController@deleteinbox');
+Route::get('/delete-appointmentreply/{id}','ApponitmentController@deletereply');
+
 
 
 //Team

@@ -169,7 +169,7 @@
 
 
 
-            <li class="header">Message </li>
+            <li class="header">Message  And Appointment </li>
             
             <li class="treeview">
                 <a href="#">
@@ -183,6 +183,21 @@
                 <ul class="treeview-menu">
                     <li class="active"><a href="{{url('/viewcontact')}}"><i class="fa fa-circle-o"></i>View Inbox</a></li>
                     <li><a href="{{url('/replies')}}"><i class="fa fa-circle-o"></i>View Reply</a></li>
+                </ul>
+            </li>
+
+            <li class="treeview">
+                <a href="#">
+                    <i class="fa fa-envelope"></i> <span>Appointment</span>
+
+                    <span class="pull-right-container">
+                        <i class="fa fa-angle-left pull-right"></i>
+                 
+                    </span>
+                </a>
+                <ul class="treeview-menu">
+                    <li class="active"><a href="{{url('/view-appointment')}}"><i class="fa fa-circle-o"></i>View Appointment</a></li>
+                    <li><a href="{{url('/appointment-replies')}}"><i class="fa fa-circle-o"></i>View Appointment Reply</a></li>
                 </ul>
             </li>
 
